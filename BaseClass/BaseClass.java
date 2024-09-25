@@ -290,7 +290,7 @@ public class BaseClass {
 		Select select = new Select(element);
 		select.selectByIndex(index);
 	}
-
+      //add on-m
 	public void selectDropDownAllOption(WebElement element) {
 		visibilityOfElement(element);
 		Select select = new Select(element);
